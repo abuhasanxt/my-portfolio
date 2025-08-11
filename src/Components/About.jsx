@@ -1,20 +1,38 @@
 import React from "react";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: true,
+    });
+  }, []);
+
   return (
     <section
       id="about"
       className="py-16 bg-gradient-to-b from-gray-50 to-white"
+      data-aos="fade-up"
     >
       <div className="max-w-5xl mx-auto px-6 text-center">
         {/* Section Title */}
-        <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 relative inline-block">
+        <h2
+          className="text-4xl md:text-5xl font-extrabold text-gray-800 relative inline-block"
+          data-aos="fade-down"
+        >
           About Me
           <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-16 h-1 bg-teal-500 rounded"></span>
         </h2>
 
         {/* About Content */}
-        <div className="mt-10 bg-white shadow-lg rounded-xl p-8 md:p-12 text-left space-y-5 border border-gray-100">
+        <div
+          className="mt-10 bg-white shadow-lg rounded-xl p-8 md:p-12 text-left space-y-5 border border-gray-100"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           <p className="text-gray-700 leading-relaxed">
             I'm <span className="font-semibold text-teal-500">Abu Hasan</span>.
             I started learning programming in university when I first created a
