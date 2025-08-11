@@ -1,7 +1,8 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin,  } from "react-icons/fa";
 import logo from "../assets/Abu hasan 1122.jpg";
 import { Link } from "react-router";
+import { BsFacebook } from "react-icons/bs";
 const Banner = () => {
   return (
     <section
@@ -25,27 +26,21 @@ const Banner = () => {
 
         {/* Social Links */}
         <div className="mt-6 flex justify-center md:justify-start space-x-4">
-          <a
-            href="#"
-            aria-label="github"
-            className="p-3 bg-gray-100 hover:bg-gray-200 rounded-full shadow-sm transition"
-          >
+          <Link to='https://github.com/abuhasanxt' className="p-3 bg-gray-100 hover:bg-gray-200 rounded-full shadow-sm transition">
             <FaGithub size={20} className="text-gray-700" />
-          </a>
-          <Link to="https://www.linkedin.com/in/abu-hasan8/"
-            
-            aria-label="linkedin"
+          </Link>
+          <Link
+            to="https://www.linkedin.com/in/abu-hasan8"
             className="p-3 bg-gray-100 hover:bg-gray-200 rounded-full shadow-sm transition"
           >
             <FaLinkedin size={20} className="text-blue-700" />
           </Link>
-          <a
-            href="#"
-            aria-label="twitter"
+          <Link to="https://web.facebook.com/abuhasanxyz8"
+            
             className="p-3 bg-gray-100 hover:bg-gray-200 rounded-full shadow-sm transition"
           >
-            <FaTwitter size={20} className="text-sky-500" />
-          </a>
+            <BsFacebook size={20} className="text-sky-500" />
+          </Link>
         </div>
 
         {/* Resume Button */}
