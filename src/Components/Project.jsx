@@ -67,9 +67,9 @@ const Project = () => {
       links: {
         live: "https://assingment-10-79094.web.app/",
         client:
-          "https://github.com/Programming-Hero-Web-Course4/b11a10-client-side-abuhasanxt",
+          "https://github.com/abuhasanxt/Freelance-Marketplace-clien-side",
         server:
-          "https://github.com/Programming-Hero-Web-Course4/b11a10-server-side-abuhasanxt",
+          "https://github.com/abuhasanxt/freelance--marketplace-server-side",
       },
     },
     {
@@ -115,9 +115,9 @@ const Project = () => {
       ],
       image: img5,
       links: {
-        live: "#",
-        client: "#",
-        server: "#",
+        live: "https://assingment-11-eb695.web.app",
+        client: "https://github.com/abuhasanxt/food-Sharing-cliend-side",
+        server: "https://github.com/abuhasanxt/food-Sharing-server-side",
       },
     },
     {
