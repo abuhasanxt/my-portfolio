@@ -50,10 +50,9 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-2 py-2 bg-teal-500 hover:bg-teal-600 text-white font-medium rounded-lg shadow-md transition"
+            href="/https://i.ibb.co.com/mr35BqqK/error.jpg"
+            download="https://i.ibb.co.com/mr35BqqK/error.jpg"
+            className="px-5 py-3 bg-teal-500 hover:bg-teal-600 text-white font-medium rounded-lg shadow-md transition"
           >
             Resume
           </a>

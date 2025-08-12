@@ -75,7 +75,7 @@ const Project = () => {
     {
       title: "Food Sharing",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita ipsam, nihil enim, iusto similique autem rerum voluptatem sunt aliquam tempore in inventore! Voluptates architecto aut tenetur nam magnam quod hic.",
+        "Food Sharing is a community-driven platform designed to reduce food waste by connecting donors with those in need. Users can easily share surplus food items, coordinate pickups, and promote sustainability while fostering a spirit of generosity and social responsibility.",
       features: [
         "Secure Authentication",
         "Real-time Bidding System",
@@ -123,7 +123,7 @@ const Project = () => {
     {
       title: "Blood Donation",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor earum aliquid in commodi ratione quod rerum ad, voluptatem dolorum quam blanditiis officiis accusantium quaerat reprehenderit laboriosam repellendus! Sunt, quae in.",
+        "Blood Donation is a reliable platform that connects blood donors with recipients in need. It facilitates easy registration, search for blood groups, and timely communication to save lives. Designed to promote community health and responsiveness during emergencies..",
       features: [
         "Secure Authentication",
         "Real-time Bidding System",
