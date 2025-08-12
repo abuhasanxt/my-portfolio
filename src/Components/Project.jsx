@@ -164,10 +164,8 @@ const Project = () => {
       image: img13,
       links: {
         live: "https://assignment-12-dde71.web.app",
-        client:
-          "https://github.com/Programming-Hero-Web-Course4/b11a12-client-side-abuhasanxt",
-        server:
-          "https://github.com/Programming-Hero-Web-Course4/b11a12-server-side-abuhasanxt",
+        client: "https://github.com/abuhasanxt/blood-donation-client-site",
+        server: "https://github.com/abuhasanxt/blood-donation-server-site",
       },
     },
   ];
