@@ -32,17 +32,44 @@ const Project = () => {
         "Payment Integration",
       ],
       techStack: [
-        { icon: <FaReact />, name: "React", bg: "bg-blue-100", text: "text-blue-600" },
-        { icon: <FaJsSquare />, name: "JavaScript", bg: "bg-yellow-100", text: "text-yellow-600" },
-        { icon: <SiMongodb />, name: "MongoDB", bg: "bg-green-100", text: "text-green-600" },
-        { icon: <SiExpress />, name: "Express.js", bg: "bg-gray-200", text: "text-gray-700" },
-        { icon: <FaNodeJs />, name: "Node.js", bg: "bg-green-200", text: "text-green-800" },
+        {
+          icon: <FaReact />,
+          name: "React",
+          bg: "bg-blue-100",
+          text: "text-blue-600",
+        },
+        {
+          icon: <FaJsSquare />,
+          name: "JavaScript",
+          bg: "bg-yellow-100",
+          text: "text-yellow-600",
+        },
+        {
+          icon: <SiMongodb />,
+          name: "MongoDB",
+          bg: "bg-green-100",
+          text: "text-green-600",
+        },
+        {
+          icon: <SiExpress />,
+          name: "Express.js",
+          bg: "bg-gray-200",
+          text: "text-gray-700",
+        },
+        {
+          icon: <FaNodeJs />,
+          name: "Node.js",
+          bg: "bg-green-200",
+          text: "text-green-800",
+        },
       ],
       image: img2,
       links: {
         live: "https://assingment-10-79094.web.app/",
-        client: "https://github.com/Programming-Hero-Web-Course4/b11a10-client-side-abuhasanxt",
-        server: "https://github.com/Programming-Hero-Web-Course4/b11a10-server-side-abuhasanxt",
+        client:
+          "https://github.com/Programming-Hero-Web-Course4/b11a10-client-side-abuhasanxt",
+        server:
+          "https://github.com/Programming-Hero-Web-Course4/b11a10-server-side-abuhasanxt",
       },
     },
     {
@@ -55,11 +82,36 @@ const Project = () => {
         "Payment Integration",
       ],
       techStack: [
-        { icon: <FaReact />, name: "React", bg: "bg-blue-100", text: "text-blue-600" },
-        { icon: <FaJsSquare />, name: "JavaScript", bg: "bg-yellow-100", text: "text-yellow-600" },
-        { icon: <SiMongodb />, name: "MongoDB", bg: "bg-green-100", text: "text-green-600" },
-        { icon: <SiExpress />, name: "Express.js", bg: "bg-gray-200", text: "text-gray-700" },
-        { icon: <FaNodeJs />, name: "Node.js", bg: "bg-green-200", text: "text-green-800" },
+        {
+          icon: <FaReact />,
+          name: "React",
+          bg: "bg-blue-100",
+          text: "text-blue-600",
+        },
+        {
+          icon: <FaJsSquare />,
+          name: "JavaScript",
+          bg: "bg-yellow-100",
+          text: "text-yellow-600",
+        },
+        {
+          icon: <SiMongodb />,
+          name: "MongoDB",
+          bg: "bg-green-100",
+          text: "text-green-600",
+        },
+        {
+          icon: <SiExpress />,
+          name: "Express.js",
+          bg: "bg-gray-200",
+          text: "text-gray-700",
+        },
+        {
+          icon: <FaNodeJs />,
+          name: "Node.js",
+          bg: "bg-green-200",
+          text: "text-green-800",
+        },
       ],
       image: img5,
       links: {
@@ -78,17 +130,44 @@ const Project = () => {
         "Payment Integration",
       ],
       techStack: [
-        { icon: <FaReact />, name: "React", bg: "bg-blue-100", text: "text-blue-600" },
-        { icon: <FaJsSquare />, name: "JavaScript", bg: "bg-yellow-100", text: "text-yellow-600" },
-        { icon: <SiMongodb />, name: "MongoDB", bg: "bg-green-100", text: "text-green-600" },
-        { icon: <SiExpress />, name: "Express.js", bg: "bg-gray-200", text: "text-gray-700" },
-        { icon: <FaNodeJs />, name: "Node.js", bg: "bg-green-200", text: "text-green-800" },
+        {
+          icon: <FaReact />,
+          name: "React",
+          bg: "bg-blue-100",
+          text: "text-blue-600",
+        },
+        {
+          icon: <FaJsSquare />,
+          name: "JavaScript",
+          bg: "bg-yellow-100",
+          text: "text-yellow-600",
+        },
+        {
+          icon: <SiMongodb />,
+          name: "MongoDB",
+          bg: "bg-green-100",
+          text: "text-green-600",
+        },
+        {
+          icon: <SiExpress />,
+          name: "Express.js",
+          bg: "bg-gray-200",
+          text: "text-gray-700",
+        },
+        {
+          icon: <FaNodeJs />,
+          name: "Node.js",
+          bg: "bg-green-200",
+          text: "text-green-800",
+        },
       ],
       image: img13,
       links: {
         live: "https://assignment-12-dde71.web.app",
-        client: "https://github.com/Programming-Hero-Web-Course4/b11a12-client-side-abuhasanxt",
-        server: "https://github.com/Programming-Hero-Web-Course4/b11a12-server-side-abuhasanxt",
+        client:
+          "https://github.com/Programming-Hero-Web-Course4/b11a12-client-side-abuhasanxt",
+        server:
+          "https://github.com/Programming-Hero-Web-Course4/b11a12-server-side-abuhasanxt",
       },
     },
   ];
