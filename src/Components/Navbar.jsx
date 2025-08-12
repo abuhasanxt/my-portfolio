@@ -1,30 +1,89 @@
 import React from "react";
-import { NavLink } from "react-router";
+
+
 import logo from "../assets/Abu hasan 1122.jpg";
 
 const Navbar = () => {
   const links = (
     <>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <a href="#home" className="hover:text-teal-500 transition"
+          onClick={(e) => {
+      document.querySelectorAll("a").forEach(el => el.classList.remove("underline", "text-teal-500"));
+      e.target.classList.add("underline", "text-teal-500");
+    }}>
+          Home
+        </a>
       </li>
       <li>
-        <NavLink>About</NavLink>
+        <a
+          href="#about"
+          className="hover:text-teal-500 transition"
+          onClick={(e) => {
+            document
+              .querySelectorAll("a")
+              .forEach((el) =>
+                el.classList.remove("underline", "text-teal-500")
+              );
+            e.target.classList.add("underline", "text-teal-500");
+          }}
+        >
+          About
+        </a>
       </li>
       <li>
-        <NavLink>Skills</NavLink>
+        <a
+          href="#skill"
+          className="hover:text-teal-500 transition"
+          onClick={(e) => {
+            document
+              .querySelectorAll("a")
+              .forEach((el) =>
+                el.classList.remove("underline", "text-teal-500")
+              );
+            e.target.classList.add("underline", "text-teal-500");
+          }}
+        >
+          Skills
+        </a>
       </li>
       <li>
-        <NavLink>Project</NavLink>
+        <a
+          href="#project"
+          className="hover:text-teal-500 transition"
+          onClick={(e) => {
+            document
+              .querySelectorAll("a")
+              .forEach((el) =>
+                el.classList.remove("underline", "text-teal-500")
+              );
+            e.target.classList.add("underline", "text-teal-500");
+          }}
+        >
+          Project
+        </a>
       </li>
       <li>
-        <NavLink>Contact</NavLink>
+        <a
+          href="#contact"
+          className="hover:text-teal-500 transition"
+          onClick={(e) => {
+            document
+              .querySelectorAll("a")
+              .forEach((el) =>
+                el.classList.remove("underline", "text-teal-500")
+              );
+            e.target.classList.add("underline", "text-teal-500");
+          }}
+        >
+          Contact
+        </a>
       </li>
     </>
   );
 
   return (
-    <div>
+    <div className="sticky top-0 z-50 bg-base-100 shadow-md">
       <div className="navbar bg-base-100 shadow-sm">
         <div className="navbar-start">
           <div className="dropdown">

@@ -173,7 +173,7 @@ const Project = () => {
   ];
 
   return (
-    <section className="max-w-[1200px] mx-auto px-4 py-10">
+    <section id="project" className="max-w-[1200px] mx-auto px-4 py-10">
       <h2
         className="text-4xl md:text-5xl font-extrabold text-center text-gray-800 relative inline-block mb-12"
         data-aos="fade-down"
